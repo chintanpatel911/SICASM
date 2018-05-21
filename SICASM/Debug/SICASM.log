@@ -1,0 +1,175 @@
+﻿Build started 4/13/2015 11:30:27 AM.
+     1>Project "C:\Users\chintan\SkyDrive\CSU\CIS 335\SICASM\SICASM\SICASM.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\SICASM.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\SICASM.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Stdafx.cpp /clr:nostdlib 
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\SICASM.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp SIC.cpp SICASM.cpp /clr:nostdlib 
+         AssemblyInfo.cpp
+         SIC.cpp
+     1>SIC.cpp(48): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "StdAfx.h"' to your source?
+         SICASM.cpp
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(2): error C2146: syntax error : missing ';' before identifier 'java'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(2): error C2143: syntax error : missing ';' before '.'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(3): error C2146: syntax error : missing ';' before identifier 'java'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(3): error C2086: 'int import' : redefinition
+                 c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(2) : see declaration of 'import'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(3): error C2143: syntax error : missing ';' before '.'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(3): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(3): error C2086: 'int java' : redefinition
+                 c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(2) : see declaration of 'java'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(4): error C2146: syntax error : missing ';' before identifier 'java'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(4): error C2086: 'int import' : redefinition
+                 c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(2) : see declaration of 'import'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(4): error C2143: syntax error : missing ';' before '.'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(4): error C2086: 'int java' : redefinition
+                 c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(2) : see declaration of 'java'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(5): error C2146: syntax error : missing ';' before identifier 'java'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(5): error C2086: 'int import' : redefinition
+                 c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(2) : see declaration of 'import'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(5): error C2143: syntax error : missing ';' before '.'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(5): error C2086: 'int java' : redefinition
+                 c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(2) : see declaration of 'java'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(6): error C2146: syntax error : missing ';' before identifier 'java'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(6): error C2086: 'int import' : redefinition
+                 c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(2) : see declaration of 'import'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(6): error C2143: syntax error : missing ';' before '.'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(6): error C2086: 'int java' : redefinition
+                 c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(2) : see declaration of 'java'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(11): error C2059: syntax error : '['
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(11): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(12): error C2864: 'SICASM::startAddress' : only static const integral data members can be initialized within a class
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(13): error C2864: 'SICASM::programLength' : only static const integral data members can be initialized within a class
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(14): error C2143: syntax error : missing ';' before '<'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(14): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(15): error C2143: syntax error : missing ';' before '<'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(15): error C2086: 'int SICASM::Map' : redefinition
+                 c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(14) : see declaration of 'SICASM::Map'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(15): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(17): error C2144: syntax error : 'void' should be preceded by ':'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(17): error C2061: syntax error : identifier 'String'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(80): error C2061: syntax error : identifier 'String'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(335): error C2143: syntax error : missing ';' before '.'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(335): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(335): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(339): error C2059: syntax error : '<catch-error>'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(339): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(20): error C2065: 'args' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(20): error C2228: left of '.length' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(21): error C3861: 'print': identifier not found
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(22): error C2882: 'System' : illegal use of namespace identifier in expression
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(22): error C2228: left of '.exit' must have class/struct/union
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(26): error C2065: 'SYMTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(26): error C2061: syntax error : identifier 'HashMap'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(27): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(27): error C2061: syntax error : identifier 'HashMap'
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(29): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(29): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(30): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(30): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(31): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(31): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(32): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(32): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(33): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(33): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(34): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(34): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(35): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(35): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(36): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(36): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(37): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(37): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(38): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(38): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(39): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(39): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(40): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(40): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(41): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(41): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(42): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(42): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(43): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(43): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(44): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(44): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(45): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(45): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(46): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(46): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(47): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(47): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(48): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(48): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(49): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(49): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(50): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(50): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(51): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(51): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(52): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(52): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(53): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(53): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(54): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(54): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(55): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(55): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(56): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(56): error C2228: left of '.put' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(57): error C2065: 'OPTAB' : undeclared identifier
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(57): error C2228: left of '.put' must have class/struct/union
+     1>c:\users\chintan\skydrive\csu\cis 335\sicasm\sicasm\SICASM.h(57): fatal error C1003: error count exceeds 100; stopping compilation
+         Generating Code...
+     1>Done Building Project "C:\Users\chintan\SkyDrive\CSU\CIS 335\SICASM\SICASM\SICASM.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.34
